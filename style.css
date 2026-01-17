@@ -19,9 +19,9 @@ body {
       text-align: center;
 }
 
+
 main{
       padding: 20px;
-}
 
 section{
       background: white;
@@ -36,3 +36,12 @@ footer{
       background: #ddd;
 }
 
+@media(min-width: 768px) {
+      main{
+            display: flex;
+            gap: 20px;
+}
+
+      section{
+            flex: 1;
+}
