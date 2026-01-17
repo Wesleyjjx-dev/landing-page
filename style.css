@@ -5,10 +5,17 @@ body {
       color: #333;
 }
 
-header{
+.header{
       background-color: #222;
       color:white;
       padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.header-content{
+      max-width: 600px;
       text-align: center;
 }
 
